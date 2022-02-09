@@ -1,4 +1,4 @@
-/*REGISTRATION FORM*/
+/*REGISTRATION FORM SECTION */
 
 /*global $, document, window, setTimeout, navigator, console, location*/
 $(document).ready(function () {
