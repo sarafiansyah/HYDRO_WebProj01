@@ -1,3 +1,21 @@
+<?php
+
+require 'functions.php';
+
+if(isset($_POST['register'])) {
+  if(registration($_POST) > 0){
+    echo "<script>
+          alert('User baru berhasil');
+          </script>";
+  }
+}
+else {
+  echo mysqli_error($conn);
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -83,7 +101,7 @@
  
              <!-- Login Form -->
              <div class="login form-peice switched">
-                <form class="login-form" action="#" method="post">
+                <form class="" action="#" method="post">
                    <div class="form-group">
                       <label for="loginemail">Email Adderss</label>
                       <input type="email" name="loginemail" id="loginemail" required>
@@ -104,39 +122,40 @@
  
              <!-- Signup Form -->
              <div class="signup form-peice">
-                <form class="signup-form" action="#" method="post">
+                <form class="" action="#" method="post">
  
                    <div class="form-group">
-                      <label for="name">Full Name</label>
-                      <input type="text" name="username" id="name" class="name">
+                      <label for="username">Username</label>
+                      <input type="text" name="username" id="username" class="">
                       <span class="error"></span>
                    </div>
  
-                   <div class="form-group">
+                   <!--<div class="form-group">
                       <label for="email">Email Adderss</label>
                       <input type="email" name="emailAdress" id="email" class="email">
                       <span class="error"></span>
-                   </div>
+                   </div>-->
  
-                   <div class="form-group">
+                   <!--<div class="form-group">
                       <label for="phone">Phone Number - <small>Optional</small></label>
                       <input type="text" name="phone" id="phone">
-                   </div>
+                   </div>-->
  
                    <div class="form-group">
                       <label for="password">Password</label>
-                      <input type="password" name="password" id="password" class="pass">
+                      <input type="password" name="password" id="password" class="">
                       <span class="error"></span>
                    </div>
  
                    <div class="form-group">
                       <label for="passwordCon">Confirm Password</label>
-                      <input type="password" name="passwordCon" id="passwordCon" class="passConfirm">
+                      <input type="password" name="password2" id="password2" class="">
                       <span class="error"></span>
                    </div>
  
                    <div class="CTA">
-                      <input type="submit" value="Signup Now" id="submit">
+                   <input type="submit" name="register" id="register" value="Sign Up">
+                   
                       <a href="#" class="switch">I have an account</a>
                    </div>
                 </form>
