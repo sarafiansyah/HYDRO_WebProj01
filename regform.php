@@ -1,5 +1,5 @@
 <?php
-
+//REG
 require 'functions.php';
 
 if(isset($_POST['register'])) {
@@ -13,6 +13,28 @@ else {
   echo mysqli_error($conn);
 }
 
+
+//LOG
+if(isset($_POST['loginBtn'])) {
+  $username = $_POST["loginUsername"];
+  $password = $_POST["loginPassword"];
+  $resultLog = mysqli_query($conn, "SELECT * FROM users WHERE username ='$username'");
+
+  //Username check
+  if(mysqli_num_rows($resultLog) === 1){
+    //Password Check
+    $row = mysqli_fetch_assoc($resultLog);
+    if(password_verify($password, $row["password"])){
+      header("Location: index.php");
+      exit;
+    }
+  }
+
+
+  $error = true;
+
+
+}
 ?>
 
 
@@ -29,7 +51,7 @@ else {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="stylesheet"  href="css/styles.css">
+    <link rel="stylesheet"  href="css/regform.css">
     <script src="js/scripts.js"></script>
 
     <title>HYDRO.com</title>
@@ -68,11 +90,14 @@ else {
  
              <!-- Login Form -->
              <div class="login form-peice switched">
+               <?php if(isset($error)) : ?>
+                <script>alert('Username/Pass salah');</script>";
+                <?php endif; ?>
                 <form class="" action="#" method="post">
                    <div class="form-group"  style="color: black;">
                    <h3>Login</h3>
-                      <label for="loginemail">Email Adderss</label>
-                      <input type="email" name="loginemail" id="loginemail" required>
+                      <label for="loginUsername">Username</label>
+                      <input type="text" name="loginUsername" id="loginUsername" required>
                    </div>
  
                    <div class="form-group"  style="color: black;">
@@ -81,7 +106,7 @@ else {
                    </div>
  
                    <div class="CTA">
-                      <input type="submit" value="Login">
+                      <input type="submit" name="loginBtn" value="Login">
                       <a href="#" class="switch">I'm New</a>
                    </div>
                 </form>
