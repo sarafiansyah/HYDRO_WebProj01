@@ -48,7 +48,7 @@
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
-            <small class="card-meta mb-2">Thought Leadership</small>
+            <small class="card-meta mb-2">HEHEHEHEE</small>
             <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
            <small><i class="far fa-clock"></i> October 15, 2020</small>
           </div>
