@@ -23,22 +23,25 @@
 
 <section class="wrapper">
   <div class="container">
-  
   <div class="row">
- <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
+    <center><h1>Welcome, User!</h1></center>
+    <center><h2>Your Total Poin : 200</h2></center>
+    <br><br><br><br>
+  </div>
+<div class="row">
+ <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('goldbar,jpg');">
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
-            <small class="card-meta mb-2">BABABABA</small>
-            <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
-           <small><i class="far fa-clock"></i> October 15, 2020</small>
+            <small class="card-meta mb-2">POIN NEEDED : 500</small>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 0,25gr</a></h4>
+           <small><i class="far fa-clock"></i> July 1, 2022</small>
           </div>
           <div class="card-footer">
            <div class="media">
   <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
   <div class="media-body">
-    <h6 class="my-0 text-white d-block">Oz COruhlu</h6>
-     <small>Director of UI/UX</small>
+    <h6 class="my-0 text-white d-block">Reedem Now</h6>
   </div>
 </div>
           </div>
@@ -48,16 +51,15 @@
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
-            <small class="card-meta mb-2">HEHEHEHEE</small>
-            <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
-           <small><i class="far fa-clock"></i> October 15, 2020</small>
+            <small class="card-meta mb-2">POIN NEEDED : 1000</small>
+            <h4 class="card-title mt-0 "><a class="text-white">EXCLUSIVE GOLDBAR 0,5gr</a></h4>
+           <small><i class="far fa-clock"></i> July 1, 2022</small>
           </div>
           <div class="card-footer">
            <div class="media">
   <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
   <div class="media-body">
-    <h6 class="my-0 text-white d-block">Oz COruhlu</h6>
-     <small>Director of UI/UX</small>
+    <h6 class="my-0 text-white d-block">Reedem Now</h6>
   </div>
 </div>
           </div>
@@ -67,16 +69,15 @@
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?computer,design" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
-            <small class="card-meta mb-2">Thought Leadership</small>
-            <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
-           <small><i class="far fa-clock"></i> October 15, 2020</small>
+            <small class="card-meta mb-2">POIN NEEDED : 2000</small>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 1,0gr</a></h4>
+           <small><i class="far fa-clock"></i> July 1, 2022</small>
           </div>
           <div class="card-footer">
            <div class="media">
   <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
   <div class="media-body">
-    <h6 class="my-0 text-white d-block">Oz COruhlu</h6>
-     <small>Director of UI/UX</small>
+    <h6 class="my-0 text-white d-block">Reedem Now</h6>
   </div>
 </div>
           </div>
