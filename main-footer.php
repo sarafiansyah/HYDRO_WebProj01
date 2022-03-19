@@ -46,7 +46,7 @@
             <!-- Grid column -->
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <!-- Content -->
-              <h6 class="text-uppercase fw-bold">Company name</h6>
+              <h6 class="text-uppercase fw-bold">ZONA ACCESSORIES</h6>
               <hr
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px"
@@ -68,16 +68,16 @@
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
               <p>
-                <a href="#!" class="text-dark">MDBootstrap</a>
+                <a href="#!" class="text-dark">HYDROGEL</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">MDWordPress</a>
+                <a href="#!" class="text-dark">PHONE CASE</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">BrandFlow</a>
+                <a href="#!" class="text-dark">TEMPERED GLASS CAMERA</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">Bootstrap Angular</a>
+                <a href="#!" class="text-dark">PHONE BACKSKIN</a>
               </p>
             </div>
             <!-- Grid column -->
