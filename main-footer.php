@@ -5,7 +5,7 @@
       <!-- Section: Social media -->
       <section
                class="d-flex justify-content-between p-4 text-white"
-               style="background-color: #21D192"
+               style="background-color: #0d6efd"
                >
         <!-- Left -->
         <div class="me-5">
@@ -101,9 +101,8 @@
            class="text-center p-3"
            style="background-color: rgba(0, 0, 0, 0.2)"
            >
-        © 2022 Copyright:
         <a class="text-dark" href="https://mdbootstrap.com/"
-           >ANTIGOdev</a
+           > © 2022 ANTIGOdev. </a
           >
       </div>
     </footer>

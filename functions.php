@@ -30,10 +30,23 @@ $conn = mysqli_connect("localhost", "root", "", "hydro_web");
     
 
     //User add 
-    mysqli_query($conn, "INSERT INTO users VALUES('', '$username', '$password')");
+    mysqli_query($conn, "INSERT INTO users VALUES('', '$username', '$password', '0', '0')");
 
     return mysqli_affected_rows($conn);
 
     //return 1;
 }
+
+
+function pointupdate($data){
+    global $conn;
+
+    $tambahPembelian = $data["tambahPembelian"];
+    $totalPoin = $data[100];
+
+    mysqli_query($conn, "INSERT INTO users VALUES('', '', '', 100, 100)");
+
+    //return 1;
+}
+
 ?>
