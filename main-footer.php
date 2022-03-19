@@ -49,16 +49,16 @@
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
               <p>
-                <a href="#!" class="text-dark">HYDROGEL</a>
+                <a href="#!" class="text-dark">Hydrogel</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">PHONE CASE</a>
+                <a href="#!" class="text-dark">Phone Case</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">TEMPERED GLASS CAMERA</a>
+                <a href="#!" class="text-dark">Tempered Glass Camera</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">PHONE BACKSKIN</a>
+                <a href="#!" class="text-dark">Phone Backskin</a>
               </p>
             </div>
 
