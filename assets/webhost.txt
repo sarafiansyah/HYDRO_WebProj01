@@ -1,0 +1,12 @@
+FILEZILLA
+FTP Username : epiz_31147817
+FTP Password : BOTOoxQNal5mGo5
+FTP Hostname : ftpupload.net
+FTP Port     : 21
+
+MYSQL
+MySQL Username : epiz_31147817
+MySQL Password : BOTOoxQNal5mGo5
+MySQL Hostname : sql210.epizy.com
+MySQL Port     : 3306
+Database Name  : epiz_31147817_XXX
