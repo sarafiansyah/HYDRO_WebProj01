@@ -1,4 +1,15 @@
+<?php
+    include "functions.php";
 
+    $no=1;
+    $ambildata = mysqli_query($conn, "SELECT * FROM users WHERE username LIKE 'supertest'");
+    $showdata = mysqli_fetch_array($ambildata);
+
+	if(isset($_POST['addpoint'])) {
+		$tbhPembelian = $_POST["tambahPembelian"];
+		mysqli_query($conn, "UPDATE users SET points=5000 WHERE username LIKE 'supertest' SET points=5000");
+	}
+    ?>
 
 
 
@@ -28,7 +39,7 @@
 
 	<!-- NAV -->
 	<?php
-	include 'main-nav.php';
+	include 'log-nav.php';
 ?>
 
 <div class="alert alert-success alert-dismissible fade show d-none sc-alert" role="alert">
@@ -43,25 +54,22 @@
 					Data Pelanggan
 				</span>
 
-<?php
-    include "functions.php";
 
-    $no=1;
-    $ambildata = mysqli_query($conn, "SELECT * FROM users WHERE username LIKE 'admin'");
-    $showdata = mysqli_fetch_array($ambildata);
-    
-    ?>
 
 				<div class="mb-3">
-      <label for="disabledTextInput" class="form-label">Nama</label>
+      <label for="disabledTextInput" class="form-label">Username</label>
       <input type="text" id="disabledTextInput" class="form-control" placeholder="<?php echo $showdata['username']?>" disabled>
     </div>
 
     <div class="mb-3">
-      <label for="disabledTextInput" class="form-label">Total Pembelian</label>
-      <input type="text" id="disabledTextInput" class="form-control" placeholder="<?php echo $showdata['total_pembelian']?>" disabled>
+      <label for="disabledTextInput" class="form-label">Nama</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="<?php echo $showdata['nama_depan'] , ' ', $showdata['nama_belakang']?>" disabled>
     </div>
-
+	
+    <div class="mb-3">
+      <label for="disabledTextInput" class="form-label">Email</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="<?php echo $showdata['nama_depan']?>" disabled>
+    </div>
 				
     <div class="mb-3">
       <label for="disabledTextInput" class="form-label">Total Poin</label>
@@ -76,7 +84,7 @@
 				<div class="container-contact100-form-btn" name="addpoint" id="addpoint">
 					<div class="wrap-contact100-form-btn">
 						<div class="contact100-form-bgbtn"></div>
-						<button class="contact100-form-btn" type="submit">
+						<button class="contact100-form-btn" type="submit" name="addpoint" id="addpoint">
 							<span>
 								Tambah Poin
 								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>

@@ -42,9 +42,8 @@ function pointupdate($data){
     global $conn;
 
     $tambahPembelian = $data["tambahPembelian"];
-    $totalPoin = $data[100];
 
-    mysqli_query($conn, "INSERT INTO users VALUES('', '', '', 100, 100)");
+    mysqli_query($conn, "INSERT INTO users (points) VALUES(100)");
 
     //return 1;
 }
