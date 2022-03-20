@@ -24,9 +24,13 @@
 <section class="wrapper">
   <div class="container">
   <div class="row">
-    <center><h1>Welcome, User!</h1></center>
-    <center><h2>Your Total Poin : 200</h2></center>
-    <br><br><br><br>
+  <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">ZONA ACCESORIES</h1>
+        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+        <button class="btn btn-primary btn-lg rounded-pill" type="button" onclick="window.location='regform.php';" >Pelajari Lebih Lanjut</button>
+      </div>
+    </div>
   </div>
 <div class="row">
  <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('goldbar,jpg');">

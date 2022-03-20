@@ -2,13 +2,15 @@
     include "functions.php";
 
     $no=1;
-    $ambildata = mysqli_query($conn, "SELECT * FROM users WHERE username LIKE 'supertest'");
+    $ambildata = mysqli_query($conn, "SELECT * FROM users WHERE username LIKE 'admin'");
     $showdata = mysqli_fetch_array($ambildata);
 
 	if(isset($_POST['addpoint'])) {
 		$tbhPembelian = $_POST["tambahPembelian"];
 		mysqli_query($conn, "UPDATE users SET points=5000 WHERE username LIKE 'supertest' SET points=5000");
 	}
+
+	
     ?>
 
 
@@ -16,7 +18,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact V4</title>
+	<title>Profile Page</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -33,6 +35,7 @@
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
@@ -47,6 +50,18 @@
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
 
+<div class="p-5 mb-4 bg-light rounded-3 mx-auto text-center">
+      <div class="container-fluid py-5 text-center" style="text-align: center;">
+        <h1 class="display-5 fw-bold">WELCOME, <?php echo $showdata['nama_depan']?> </h1>
+        <p class="col-md-8 fs-4 text-center mx-auto">Your Total Points is :</p>
+		<p class="col-md-8 fs-4 text-center mx-auto"><?php echo $showdata['points']?> Points</p>
+		<br>
+        <button class="btn btn-primary btn-lg rounded-pill" type="button" onclick="window.location='regform.php';" >Pelajari Lebih Lanjut</button>
+      </div>
+    </div>
+
+
+<div class="">
 	<div class="container-contact100">
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" name="hydro-database-01">
@@ -107,8 +122,65 @@
 			</form>
 		</div>
 	</div>
-
-
+	<div class="row" style="padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;">
+	<h1 class="display-5 fw-bold">Tukarkan Poinmu! </h1>
+ <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
+         <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+        <div class="card-img-overlay d-flex flex-column">
+         <div class="card-body">
+            <small class="card-meta mb-2">POIN NEEDED : 500</small>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 0,25gr</a></h4>
+           <small><i class="far fa-clock"></i> July 1, 2022</small>
+          </div>
+          <div class="card-footer">
+           <div class="media">
+  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+  <div class="media-body">
+    <h6 class="my-0 text-white d-block">Reedem Now</h6>
+  </div>
+</div>
+          </div>
+        </div>
+      </div></div>
+     <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
+         <img class="card-img d-none" src="https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+        <div class="card-img-overlay d-flex flex-column">
+         <div class="card-body">
+            <small class="card-meta mb-2">POIN NEEDED : 1000</small>
+            <h4 class="card-title mt-0 "><a class="text-white">EXCLUSIVE GOLDBAR 0,5gr</a></h4>
+           <small><i class="far fa-clock"></i> July 1, 2022</small>
+          </div>
+          <div class="card-footer">
+           <div class="media">
+  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+  <div class="media-body">
+    <h6 class="my-0 text-white d-block">Reedem Now</h6>
+  </div>
+</div>
+          </div>
+        </div>
+      </div></div>
+  <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
+         <img class="card-img d-none" src="https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+        <div class="card-img-overlay d-flex flex-column">
+         <div class="card-body">
+            <small class="card-meta mb-2">POIN NEEDED : 2000</small>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 1,0gr</a></h4>
+           <small><i class="far fa-clock"></i> July 1, 2022</small>
+          </div>
+          <div class="card-footer">
+           <div class="media">
+  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+  <div class="media-body">
+    <h6 class="my-0 text-white d-block">Reedem Now</h6>
+  </div>
+</div>
+          </div>
+        </div>
+      </div></div>
+  
+</div>
+</div>
 
 
 	<div id="dropDownSelect1"></div>
