@@ -10,6 +10,7 @@ $conn = mysqli_connect("localhost", "root", "", "hydro_web");
     $password = mysqli_real_escape_string($conn, $data["password"]);
     $password2 = mysqli_real_escape_string($conn, $data["password2"]);
 
+
     //Username Confirmation
     $resultReg = mysqli_query($conn, "SELECT username FROM users WHERE 
     username = '$username'");
@@ -30,7 +31,7 @@ $conn = mysqli_connect("localhost", "root", "", "hydro_web");
     
 
     //User add 
-    mysqli_query($conn, "INSERT INTO users VALUES('', '$username', '$password', '0', '0')");
+    mysqli_query($conn, "INSERT INTO users VALUES('', '$username', '$password', '', '', 0)");
 
     return mysqli_affected_rows($conn);
 
