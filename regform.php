@@ -123,6 +123,18 @@ if(isset($_POST['loginBtn'])) {
                       <input type="text" name="username" id="username" class="">
                       <span class="error"></span>
                    </div>
+
+                   <div class="form-group" style="color: black;">
+                      <label for="namadepan">Nama Depan</label>
+                      <input type="text" name="namadepan" id="namadepan" class="">
+                      <span class="error"></span>
+                   </div>
+
+                   <div class="form-group" style="color: black;">
+                      <label for="namabelakang">Nama Belakang</label>
+                      <input type="text" name="namabelakang" id="namabelakang" class="">
+                      <span class="error"></span>
+                   </div>
  
                    <!--<div class="form-group">
                       <label for="email">Email Adderss</label>
