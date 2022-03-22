@@ -44,16 +44,16 @@
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
               <p>
-                <a href="#!" class="text-dark">Hydrogel</a>
+                <a href="https://wa.me/+6281290909185?text=Hallo%20kak%2C%0AMau%20tau%20lebih%20lanjut%20dong%20tentang%20Bahan%20Hydrogel%20yang%20kakak%20jual%20%3AD" class="text-dark">Hydrogel</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">Phone Case</a>
+                <a href="https://wa.me/+6281290909185?text=Hallo%20kak%2C%0ASaya%20mau%20lihat-lihat%20katalog%20Casing%20HP%20yang%20kakak%20jual%20nih%20%3AD" class="text-dark">Phone Case</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">Tempered Glass Camera</a>
+                <a href="https://wa.me/+6281290909185?text=Hallo%20kak%2C%0ASaya%20mau%20lihat-lihat%20katalog%20Tempered%20Camera%20yang%20kakak%20jual%20nih%20%3AD" class="text-dark">Tempered Glass Camera</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">Phone Backskin</a>
+                <a href="https://wa.me/+6281290909185?text=Hallo%20kak%2C%0ASaya%20mau%20lihat-lihat%20katalog%20Backskin%20HP%20yang%20kakak%20jual%20nih%20%3AD" class="text-dark">Phone Backskin</a>
               </p>
             </div>
 
