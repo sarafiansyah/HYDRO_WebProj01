@@ -35,7 +35,7 @@
          <div class="card-body">
             <small class="card-meta mb-2">POIN NEEDED : 500</small>
             <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 0,25gr</a></h4>
-           <small><i class="far fa-clock"></i> July 1, 2022</small>
+           <small><i class="far fa-clock"></i> End : July 1, 2022</small>
           </div>
           <div class="card-footer">
            <div class="media">
@@ -53,7 +53,7 @@
          <div class="card-body">
             <small class="card-meta mb-2">POIN NEEDED : 1000</small>
             <h4 class="card-title mt-0 "><a class="text-white">EXCLUSIVE GOLDBAR 0,5gr</a></h4>
-           <small><i class="far fa-clock"></i> July 1, 2022</small>
+           <small><i class="far fa-clock"></i> End : July 1, 2022</small>
           </div>
           <div class="card-footer">
            <div class="media">
@@ -71,7 +71,7 @@
          <div class="card-body">
             <small class="card-meta mb-2">POIN NEEDED : 2000</small>
             <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 1,0gr</a></h4>
-           <small><i class="far fa-clock"></i> July 1, 2022</small>
+           <small><i class="far fa-clock"></i> End : July 1, 2022</small>
           </div>
           <div class="card-footer">
            <div class="media">

@@ -34,11 +34,6 @@
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
-              <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
             </div>
 
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -63,22 +58,19 @@
             </div>
 
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <h6 class="text-uppercase fw-bold">Direct links</h6>
               <hr
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
               <p>
-                <a href="#!" class="text-dark">Your Account</a>
+                <a href="https://shopee.co.id/kedairoxy" class="text-dark">SHOPEE</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">Become an Affiliate</a>
+                <a href="https://www.tokopedia.com/kedairoxy?_branch_match_id=915980148706012018&utm_source=sellerchannel&utm_campaign=Shop-0-3717804-0&utm_medium=share&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWz05NScwsyq%2BoBAD0zugcIAAAAA%3D%3D" class="text-dark">TOKOPEDIA</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">Shipping Rates</a>
-              </p>
-              <p>
-                <a href="#!" class="text-dark">Help</a>
+                <a href="https://www.bukalapak.com/u/kedairoxy" class="text-dark">BUKALAPAK</a>
               </p>
             </div>
 
@@ -103,7 +95,7 @@
            >
         © 2022 Copyright:
         <a class="text-dark" href="https://mdbootstrap.com/"
-           >ANTIGOdev</a
+           >ANTIGOdev2022</a
           >
       </div>
     </footer>
