@@ -24,13 +24,17 @@
 <section class="wrapper">
   <div class="container">
   <div class="row">
-    <center><h1>Welcome, User!</h1></center>
-    <center><h2>Your Total Poin : 200</h2></center>
-    <br><br><br><br>
+  <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">ZONA ACCESORIES</h1>
+        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+        <button class="btn btn-primary btn-lg rounded-pill" type="button" onclick="window.location='regform.php';" >Pelajari Lebih Lanjut</button>
+      </div>
+    </div>
   </div>
 <div class="row">
  <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('goldbar,jpg');">
-         <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+         <img class="card-img d-none" src="https://images.unsplash.com/photo-1624365169364-0640dd10e180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29sZCUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
             <small class="card-meta mb-2">POIN NEEDED : 500</small>
@@ -39,16 +43,15 @@
           </div>
           <div class="card-footer">
            <div class="media">
-  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
   <div class="media-body">
-    <h6 class="my-0 text-white d-block">Reedem Now</h6>
+    <a href="https://wa.me/089668796550?text=Hallo%20kak%2C%0ASaya%20mau%20tukar%20poin%20hydrogel%20dengan%20GoldBar%200%2C25%20gr%20nih%20" class="btn btn-primary btn-lg rounded-pill">Reedem Now</a>
   </div>
 </div>
           </div>
         </div>
       </div></div>
      <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tree,nature');">
-         <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+         <img class="card-img d-none" src="https://images.unsplash.com/photo-1624365168785-c65be9114821?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z29sZCUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
             <small class="card-meta mb-2">POIN NEEDED : 1000</small>
@@ -57,16 +60,15 @@
           </div>
           <div class="card-footer">
            <div class="media">
-  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
   <div class="media-body">
-    <h6 class="my-0 text-white d-block">Reedem Now</h6>
+    <a href="https://wa.me/089668796550?text=Hallo%20kak%2C%0ASaya%20mau%20tukar%20poin%20hydrogel%20dengan%20GoldBar%200%2C5%20gr%20nih%20" class="btn btn-primary btn-lg rounded-pill">Reedem Now</a>
   </div>
 </div>
           </div>
         </div>
       </div></div>
   <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?computer,design');">
-         <img class="card-img d-none" src="https://source.unsplash.com/600x900/?computer,design" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+         <img class="card-img d-none" src="https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
             <small class="card-meta mb-2">POIN NEEDED : 2000</small>
@@ -75,9 +77,8 @@
           </div>
           <div class="card-footer">
            <div class="media">
-  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
   <div class="media-body">
-    <h6 class="my-0 text-white d-block">Reedem Now</h6>
+  <a href="https://wa.me/089668796550?text=Hallo%20kak%2C%0ASaya%20mau%20tukar%20poin%20hydrogel%20dengan%20GoldBar%201%2C0%20gr%20nih%20" class="btn btn-primary btn-lg rounded-pill">Reedem Now</a>
   </div>
 </div>
           </div>

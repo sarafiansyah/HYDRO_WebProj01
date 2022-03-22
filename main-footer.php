@@ -5,7 +5,7 @@
       <!-- Section: Social media -->
       <section
                class="d-flex justify-content-between p-4 text-white"
-               style="background-color: #21D192"
+               style="background-color: #0d6efd"
                >
         <!-- Left -->
         <div class="me-5">
@@ -44,16 +44,16 @@
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
               <p>
-                <a href="#!" class="text-dark">HYDROGEL</a>
+                <a href="#!" class="text-dark">Hydrogel</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">PHONE CASE</a>
+                <a href="#!" class="text-dark">Phone Case</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">TEMPERED GLASS CAMERA</a>
+                <a href="#!" class="text-dark">Tempered Glass Camera</a>
               </p>
               <p>
-                <a href="#!" class="text-dark">PHONE BACKSKIN</a>
+                <a href="#!" class="text-dark">Phone Backskin</a>
               </p>
             </div>
 
@@ -93,9 +93,12 @@
            class="text-center p-3"
            style="background-color: rgba(0, 0, 0, 0.2)"
            >
-        © 2022 Copyright:
         <a class="text-dark" href="https://mdbootstrap.com/"
+<<<<<<< HEAD
            >ANTIGOdev2022</a
+=======
+           > © 2022 ANTIGOdev. </a
+>>>>>>> e73f02adbf244e8a6d1de0715204dcef4b9d80c3
           >
       </div>
     </footer>

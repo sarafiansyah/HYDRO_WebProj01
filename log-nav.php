@@ -1,3 +1,5 @@
+
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">HYDRO</a>
@@ -54,9 +56,8 @@
         </li>
       </ul>
       <form class="d-flex">
-        
-        <button class="btn btn-outline-primary rounded-pill switch" type="button" onclick="location.href = 'regform.php';">Login</button>
-        <button class="btn btn-primary rounded-pill" type="button"onclick="location.href = 'regform.php';">Sign Up</button>
+      <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="width: 25px; height: 25px; margin-right: 10px;">
+<?php echo $showdata['nama_depan']?>
       </form>
     </div>
   </div>

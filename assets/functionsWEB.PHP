@@ -1,7 +1,7 @@
 <?php 
 
 // Create connection
-$conn = mysqli_connect("localhost", "root", "", "hydro_web");
+$conn = mysqli_connect("sql210.epizy.com", "epiz_31147817", "BOTOoxQNal5mGo5", "epiz_31147817_hydro_web");
 
     function registration($data){
     global $conn;
@@ -30,22 +30,10 @@ $conn = mysqli_connect("localhost", "root", "", "hydro_web");
     
 
     //User add 
-    mysqli_query($conn, "INSERT INTO users VALUES('', '$username', '$password', '0', '0')");
+    mysqli_query($conn, "INSERT INTO users VALUES('', '$username', '$password')");
 
     return mysqli_affected_rows($conn);
 
     //return 1;
 }
-
-
-function pointupdate($data){
-    global $conn;
-
-    $tambahPembelian = $data["tambahPembelian"];
-
-    mysqli_query($conn, "INSERT INTO users (points) VALUES(100)");
-
-    //return 1;
-}
-
 ?>

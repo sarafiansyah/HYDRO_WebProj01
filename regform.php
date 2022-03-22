@@ -25,7 +25,7 @@ if(isset($_POST['loginBtn'])) {
     //Password Check
     $row = mysqli_fetch_assoc($resultLog);
     if(password_verify($password, $row["password"])){
-      header("Location: index.php");
+      header("Location: user01.php");
       exit;
     }
   }
