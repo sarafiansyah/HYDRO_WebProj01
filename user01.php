@@ -122,7 +122,9 @@
 			</form>
 		</div>
 	</div>
-	<div class="row" style="padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;">
+  
+	<div style="padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;">
+  <div class="row" >
 	<h1 class="display-5 fw-bold">Tukarkan Poinmu! </h1>
  <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
@@ -179,6 +181,8 @@
         </div>
       </div></div>
   
+</div>
+</div>
 </div>
 </div>
 

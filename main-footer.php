@@ -94,11 +94,7 @@
            style="background-color: rgba(0, 0, 0, 0.2)"
            >
         <a class="text-dark" href="https://mdbootstrap.com/"
-<<<<<<< HEAD
-           >ANTIGOdev2022</a
-=======
            > © 2022 ANTIGOdev. </a
->>>>>>> e73f02adbf244e8a6d1de0715204dcef4b9d80c3
           >
       </div>
     </footer>

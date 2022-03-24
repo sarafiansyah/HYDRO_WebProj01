@@ -19,11 +19,11 @@
             include 'main-nav.php';
         ?>
 
-
+  <!-- JUMBOTRON-->
 
 <section class="wrapper">
   <div class="container">
-  <div class="row">
+  <div class="row" >
   <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">ZONA ACCESORIES</h1>
@@ -32,8 +32,12 @@
       </div>
     </div>
   </div>
-<div class="row">
- <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('goldbar,jpg');">
+
+  <!-- CARD LINE 1-->
+
+<div class="row" style="padding-top: 50px; padding-bottom: 50px;">
+<h1 class="display-5 fw-bold">Tukarkan Poinmu! </h1>
+ <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1624365169364-0640dd10e180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29sZCUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&H=900');">
          <img class="card-img d-none" src="https://images.unsplash.com/photo-1624365169364-0640dd10e180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29sZCUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
@@ -87,6 +91,67 @@
   
 </div>
   
+  <!-- CARD LINE 2 -->
+
+<div class="row" >
+
+ <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
+         <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+        <div class="card-img-overlay d-flex flex-column">
+         <div class="card-body">
+            <small class="card-meta mb-2">POIN NEEDED : 500</small>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 0,25gr</a></h4>
+           <small><i class="far fa-clock"></i> July 1, 2022</small>
+          </div>
+          <div class="card-footer">
+           <div class="media">
+  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+  <div class="media-body">
+    <h6 class="my-0 text-white d-block">Reedem Now</h6>
+  </div>
+</div>
+          </div>
+        </div>
+      </div></div>
+     <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
+         <img class="card-img d-none" src="https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+        <div class="card-img-overlay d-flex flex-column">
+         <div class="card-body">
+            <small class="card-meta mb-2">POIN NEEDED : 1000</small>
+            <h4 class="card-title mt-0 "><a class="text-white">EXCLUSIVE GOLDBAR 0,5gr</a></h4>
+           <small><i class="far fa-clock"></i> July 1, 2022</small>
+          </div>
+          <div class="card-footer">
+           <div class="media">
+  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+  <div class="media-body">
+    <h6 class="my-0 text-white d-block">Reedem Now</h6>
+  </div>
+</div>
+          </div>
+        </div>
+      </div></div>
+  <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
+         <img class="card-img d-none" src="https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+        <div class="card-img-overlay d-flex flex-column">
+         <div class="card-body">
+            <small class="card-meta mb-2">POIN NEEDED : 2000</small>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 1,0gr</a></h4>
+           <small><i class="far fa-clock"></i> July 1, 2022</small>
+          </div>
+          <div class="card-footer">
+           <div class="media">
+  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+  <div class="media-body">
+    <h6 class="my-0 text-white d-block">Reedem Now</h6>
+  </div>
+</div>
+          </div>
+        </div>
+      </div></div>
+  
+</div>
+
 </div>
 </section>
 
