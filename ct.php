@@ -119,6 +119,7 @@
       .then((response) => {
 		successAlert.classList.toggle('d-none'); 
 		form.reset(); 
+		window.scrollTo({ top: 0, behavior: 'smooth' });
 		console.log('Success!', response)})
       .catch(error => console.error('Error!', error.message))
   })

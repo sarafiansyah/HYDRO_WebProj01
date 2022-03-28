@@ -46,22 +46,23 @@
 ?>
 
 <div class="alert alert-success alert-dismissible fade show d-none sc-alert" role="alert">
-  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <strong>Data Berhasil Ditambahkan!</strong> Menunggu respon dari pihak admin.
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
 
-<div class="p-5 mb-4 bg-light rounded-3 mx-auto text-center">
+<div class="user01bg">
+<div class="p-5 mb-4  rounded-3 mx-auto text-center text-light">
       <div class="container-fluid py-5 text-center" style="text-align: center;">
         <h1 class="display-5 fw-bold">WELCOME, <?php echo $showdata['nama_depan']?> </h1>
-        <p class="col-md-8 fs-4 text-center mx-auto">Your Total Points is :</p>
-		<p class="col-md-8 fs-4 text-center mx-auto"><?php echo $showdata['points']?> Points</p>
+        <p class="col-md-8 fs-4 text-center text-light mx-auto">Your Total Points is :</p>
+		<p class="col-md-8 fs-4 text-center text-light mx-auto"><?php echo $showdata['points']?> Points</p>
 		<br>
         <button class="btn btn-primary btn-lg rounded-pill" type="button" onclick="window.location='regform.php';" >Pelajari Lebih Lanjut</button>
       </div>
     </div>
 
 
-<div class="">
+<div class="" id="">
 	<div class="container-contact100">
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" name="hydro-database-01">
@@ -74,39 +75,51 @@
 				<div class="mb-3">
       <label for="disabledTextInput" class="form-label">Username</label>
       <input type="text" id="disabledTextInput" class="form-control" placeholder="<?php echo $showdata['username']?>" disabled>
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
 
     <div class="mb-3">
       <label for="disabledTextInput" class="form-label">Nama</label>
       <input type="text" id="disabledTextInput" class="form-control" placeholder="<?php echo $showdata['nama_depan'] , ' ', $showdata['nama_belakang']?>" disabled>
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
 	
     <div class="mb-3">
       <label for="disabledTextInput" class="form-label">Email</label>
       <input type="text" id="disabledTextInput" class="form-control" placeholder="<?php echo $showdata['nama_depan']?>" disabled>
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
 				
     <div class="mb-3">
       <label for="disabledTextInput" class="form-label">Total Poin</label>
       <input type="text" id="disabledTextInput" class="form-control" placeholder="<?php echo $showdata['points']?>" disabled>
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <span class="contact100-form-title">
+					Tambahkan Data
+				</span>
+
+    <div class="mb-3">
+      <label for="disabledTextInput" class="form-label">Nama</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="" name="nama">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
 
     <div class="mb-3">
-      <label for="disabledTextInput" class="form-label">Tambahkan Pembelian</label>
-      <input type="text" id="disabledTextInput" class="form-control" name="tambahPembelian" id="tambahPembelian" placeholder="Masukan jumlah pembelian..." >
+      <label for="disabledTextInput" class="form-label">Jumlah Pembelian</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="" name="jumlahpembelian">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
 
-				<div class="container-contact100-form-btn" name="addpoint" id="addpoint">
-					<div class="wrap-contact100-form-btn">
-						<div class="contact100-form-bgbtn"></div>
-						<button class="contact100-form-btn" type="submit" name="addpoint" id="addpoint">
-							<span>
-								Tambah Poin
-								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-							</span>
-						</button>
-					</div>
-				</div>
+    <div class="mb-3">
+      <label for="disabledTextInput" class="form-label">Media Pembelian</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="" name="mediapembelian">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+
         
         <div class="container-contact100-form-btn">
 					<div class="wrap-contact100-form-btn">
@@ -121,11 +134,11 @@
 				</div>
 			</form>
 		</div>
-	</div>
+	</div>	</div>
   
 	<div style="padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;">
   <div class="row" >
-	<h1 class="display-5 fw-bold">Tukarkan Poinmu! </h1>
+	<h1 class="display-5 fw-bold  text-light">Tukarkan Poinmu! </h1>
  <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
@@ -184,7 +197,8 @@
 </div>
 </div>
 </div>
-</div>
+
+
 
 
 	<div id="dropDownSelect1"></div>
@@ -226,6 +240,7 @@
       .then((response) => {
 		successAlert.classList.toggle('d-none'); 
 		form.reset(); 
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 		console.log('Success!', response)})
       .catch(error => console.error('Error!', error.message))
   })

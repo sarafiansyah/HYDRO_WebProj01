@@ -156,9 +156,8 @@ iframe {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  background: gray;
-  
+  padding: 50px;
+
   
 }
 
@@ -354,7 +353,7 @@ textarea.input100 {
 
 @media (max-width: 576px) {
   .wrap-contact100 {
-    padding: 72px 15px 65px 15px;
+    padding: 72px 30px 65px 30px;
   }
 }
 
