@@ -77,7 +77,7 @@
       <input type="text" id="disabledTextInput" class="form-control" placeholder="<?php echo $showdata['username']?>" >
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
-
+    
     <div class="container-contact100-form-btn">
 					<div class="wrap-contact100-form-btn">
 						<div class="contact100-form-bgbtn"></div>
