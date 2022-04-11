@@ -72,6 +72,26 @@
 
 
 
+        <!-- <div class="mb-3">
+      <label for="disabledTextInput" class="form-label">Cari Username</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="<?php echo $showdata['username']?>" >
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+
+    <div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn" type="submit">
+							<span>
+								Submit
+								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+							</span>
+						</button>
+					</div>
+				</div>
+
+        <br> -->
+
 				<div class="mb-3">
       <label for="disabledTextInput" class="form-label">Username</label>
       <input type="text" id="disabledTextInput" class="form-control" placeholder="<?php echo $showdata['username']?>" disabled>
