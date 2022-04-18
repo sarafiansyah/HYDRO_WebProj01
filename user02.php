@@ -8,7 +8,7 @@ if (isset($_POST["edit"])) {
     $sql = "UPDATE users SET points='$points' WHERE username='$username'";
 
 if (mysqli_query($conn, $sql)) {
-  echo "<script>alert('New data added')</script>";
+  echo "<script>alert('Data berhasil diubah')</script>";
   
 } 
 else {
