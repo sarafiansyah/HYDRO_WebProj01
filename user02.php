@@ -87,16 +87,20 @@ else {
                                                     <input type="text" value="<?= $row['username']; ?>" class="form-control" disabled>
                                                 </div>
                                                 <div class="form-group mb-3">
-                                                    <label for="">Name</label>
+                                                    <label for="">Nama Lengkap</label>
+                                                    <input type="text" value="<?= $row['nama_depan'], ' ', $row['nama_belakang'] ; ?>" class="form-control" name="nama_depan" disabled>
+                                                </div>
+                                                <div class="form-group mb-3">
+                                                    <label for="">Nama Depan</label>
                                                     <input type="text" value="<?= $row['nama_depan']; ?>" class="form-control" name="nama_depan" disabled>
                                                 </div>
                                                 <div class="form-group mb-3">
-                                                    <label for="">Name</label>
+                                                    <label for="">Nama Belakang</label>
                                                     <input type="text" value="<?= $row['nama_belakang']; ?>" class="form-control" name="nama_belakang" disabled>
                                                 </div>
                                                 <div class="form-group mb-3">
                                                     <label for="">Points</label>
-                                                    <input type="text" value="<?= $row['points']; ?>" class="form-control" disabled>
+                                                    <input type="text" value="<?= $row['points'], ' Point'; ?>" class="form-control" disabled>
                                                 </div>
                                                 <hr>
                         <form action="<?=$_SERVER['REQUEST_URI']?>" method="POST">
@@ -115,7 +119,7 @@ else {
                                         }
                                         else
                                         {
-                                            echo "No Record Found";
+                                            echo "No Data Found";
                                         }
                                     }
                                    
