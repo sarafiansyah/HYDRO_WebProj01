@@ -15,6 +15,7 @@
             <li><a class="dropdown-item" href="ct.php">Contact Form</a></li>
             <li><a class="dropdown-item" href="regform.php">Registration Form</a></li>
             <li><a class="dropdown-item" href="user01.php">User Logged In</a></li>
+            <li><a class="dropdown-item" href="user02.php">User Edit</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
