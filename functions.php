@@ -51,4 +51,21 @@ function pointupdate($data){
     //return 1;
 }
 
+function verifyCookie() {
+    global $conn;
+    if(isset($_COOKIE['id']) && isset($_COOKIE['key'])){
+        $cookieId = $_COOKIE['id'];
+        $cookieKey = $_COOKIE['key'];
+
+        $row = mysqli_fetch_assoc(mysqli_query($conn, "SELECT username FROM users WHERE id = $cookieId"));
+        
+        $username = $row === null ? '' : $row['username'] ;
+        $hashedUsername = hash('sha256', $username);
+        
+        if ($cookieKey === $hashedUsername) {
+           $_SESSION['username'] = $username;
+        }
+    }
+}
+
 ?>

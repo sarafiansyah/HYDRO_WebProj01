@@ -1,3 +1,9 @@
+<?php 
+session_start();
+require 'functions.php';
+verifyCookie();
+?>
+
 <!DOCTYPE html>
 <html>
     <head>

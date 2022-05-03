@@ -1,18 +1,23 @@
 <?php
-    include "functions.php";
+  include "functions.php";
+  session_start();
+  verifyCookie();
 
-    $no=1;
-    $ambildata = mysqli_query($conn, "SELECT * FROM users WHERE username LIKE 'admin'");
-    $showdata = mysqli_fetch_array($ambildata);
+  if(!isset($_SESSION['username'])){
+    header('Location: index.php');
+    return;
+  }
+
+  $no=1;
+  $username = $_SESSION['username'];
+  $showdata = mysqli_fetch_array(mysqli_query($conn, "SELECT * FROM users WHERE username = '$username'"));
 
 	if(isset($_POST['addpoint'])) {
 		$tbhPembelian = $_POST["tambahPembelian"];
 		mysqli_query($conn, "UPDATE users SET points=5000 WHERE username LIKE 'supertest' SET points=5000");
 	}
 
-	
-  
-    ?>
+?>
 
 
 
