@@ -19,6 +19,7 @@
             <li><a class="dropdown-item" href="user01.php">User Logged In</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item text-danger" href="logout.php">Log Out</a></li>
           </ul>
         </li>
         <!-- <li class="nav-item dropdown">

@@ -1,6 +1,13 @@
 <?php
 //REG
 require 'functions.php';
+session_start();
+
+verifyCookie();
+
+if (isset($_SESSION['username'])) {
+   header("Location: user01.php");
+}
 
 if(isset($_POST['register'])) {
   if(registration($_POST) > 0){
@@ -25,11 +32,16 @@ if(isset($_POST['loginBtn'])) {
     //Password Check
     $row = mysqli_fetch_assoc($resultLog);
     if(password_verify($password, $row["password"])){
+       $_SESSION['username'] = $username;
+      // remember me
+      if(isset($_POST['rememberme'])) {
+         setcookie('id', $row['id'], mktime(0, 0, 0, 0, 0, 25));
+         setcookie('key', hash('sha256', $username), mktime(0, 0, 0, 0, 0, 25));
+      }
       header("Location: user01.php");
       exit;
     }
   }
-
 
   $error = true;
 
@@ -104,6 +116,12 @@ if(isset($_POST['loginBtn'])) {
                       <label for="loginPassword">Password</label>
                       <input type="password" name="loginPassword" id="loginPassword" required>
                    </div>
+
+                   <div class="pt-1 d-flex align-items-center">
+                     <input type="checkbox" name="rememberme" id="rememberme" style="width:15px" class="d-inline">
+                     <!-- Ini checkbox, klo dikasih form-check-input, malah suka unchecked sendiri -->
+                     <span class="fs-6 px-1 pb-1">Remember Me</span>
+                  </div>
  
                    <div class="CTA">
                       <input type="submit" name="loginBtn" value="Login">
