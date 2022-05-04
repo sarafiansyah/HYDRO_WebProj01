@@ -26,11 +26,11 @@ verifyCookie();
         ?>
 
   <!-- JUMBOTRON-->
+  <div class="container-fluid">
+<section class="">
 
-<section class="wrapper">
-  <div class="container">
   <div class="row" >
-  <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: -20px;" data-bs-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: 3px;" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -58,9 +58,9 @@ verifyCookie();
 
   <!-- CARD LINE 1-->
 
-<div class="row" style="padding-top: 50px; padding-bottom: 50px;">
-<h1 class="display-5 fw-bold">Tukarkan Poinmu! </h1>
- <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1624365169364-0640dd10e180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29sZCUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&H=900');">
+<div class="row cardsizing" style="padding-top: 50px; padding-bottom: 20px;">
+<h3 class="display-5 fw-bold">Tukarkan Poinmu! </h3>
+ <div class="col-md-4 cardsizing"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1624365169364-0640dd10e180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29sZCUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&H=900');">
          <img class="card-img d-none" src="https://images.unsplash.com/photo-1624365169364-0640dd10e180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29sZCUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
@@ -77,7 +77,7 @@ verifyCookie();
           </div>
         </div>
       </div></div>
-     <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tree,nature');">
+     <div class="col-md-4 cardsizing"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tree,nature');">
          <img class="card-img d-none" src="https://images.unsplash.com/photo-1624365168785-c65be9114821?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z29sZCUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
@@ -94,7 +94,7 @@ verifyCookie();
           </div>
         </div>
       </div></div>
-  <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?computer,design');">
+  <div class="col-md-4 cardsizing"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?computer,design');">
          <img class="card-img d-none" src="https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
@@ -116,9 +116,9 @@ verifyCookie();
   
   <!-- CARD LINE 2 -->
 
-<div class="row" >
+<div class="row cardsizing" style="padding-top: 0px; padding-bottom: 50px;">
 
- <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
+ <div class="col-md-4 cardsizing"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
@@ -128,7 +128,7 @@ verifyCookie();
           </div>
           <div class="card-footer">
            <div class="media">
-  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
+  <img class="mr-3 rounded-circle cardsizing" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
   <div class="media-body">
     <h6 class="my-0 text-white d-block">Reedem Now</h6>
   </div>
@@ -136,7 +136,7 @@ verifyCookie();
           </div>
         </div>
       </div></div>
-     <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
+     <div class="col-md-4 cardsizing"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
          <img class="card-img d-none" src="https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
@@ -154,7 +154,7 @@ verifyCookie();
           </div>
         </div>
       </div></div>
-  <div class="col-md-4"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
+  <div class="col-md-4 cardsizing"><div class="card text-white card-has-bg click-col" style="background-image:url('https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');">
          <img class="card-img d-none" src="https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
