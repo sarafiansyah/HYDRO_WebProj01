@@ -30,13 +30,30 @@ verifyCookie();
 <section class="wrapper">
   <div class="container">
   <div class="row" >
-  <div class="p-5 mb-4 bg-light rounded-3">
-      <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">ZONA ACCESORIES</h1>
-        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-        <button class="btn btn-primary btn-lg rounded-pill" type="button" onclick="window.location='regform.php';" >Pelajari Lebih Lanjut</button>
-      </div>
+  <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: -20px;" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cf.shopee.co.id/file/56dc50b6e74e7e4cce26534d647ff27a" class="d-block w-100" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="https://cf.shopee.co.id/file/e3bfe9dc1072965da6f8b316dcfa6259" class="d-block w-100" alt="...">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
   </div>
 
   <!-- CARD LINE 1-->
@@ -179,6 +196,15 @@ verifyCookie();
     <script src="./js/scripts.js"></script>
     <script>
       AOS.init();
+
+      function logswitcher() {
+      window.location.href="regform.php";
+
+      var element = document.getElementById("signuppage");
+      element.classList.remove("switched");
+      var element = document.getElementById("superswitch");
+      element.classList.add("active");
+    }
     </script>
 
  

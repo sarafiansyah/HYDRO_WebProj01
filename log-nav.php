@@ -9,18 +9,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Home
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="index.php">Index</a></li>
-            <li><a class="dropdown-item" href="ct.php">Contact Form</a></li>
-            <li><a class="dropdown-item" href="regform.php">Registration Form</a></li>
-            <li><a class="dropdown-item" href="user01.php">User Logged In</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-            <li><a class="dropdown-item text-danger" href="logout.php">Log Out</a></li>
-          </ul>
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Rewards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">E-Commerce</a>
         </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -56,10 +52,24 @@
           </ul>
         </li> -->
       </ul>
-      <form class="d-flex">
+
+    <div class="btn-group" >
+  <button type="button" class="btn  dropdown-toggle dropleft" data-bs-toggle="dropdown" aria-expanded="false">
+
       <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="width: 25px; height: 25px; margin-right: 10px;">
 <?php echo $showdata['nama_depan']?>
-      </form>
+
+  </button>
+  <ul class="dropdown-menu dropdown-menu-lg-right" >
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Feedback</a></li>
+    <li><a class="dropdown-item" href="#">Something</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item text-danger" href="logout.php">Log Out</a></li>
+  </ul>
+</div>
+
+
     </div>
   </div>
 </nav>

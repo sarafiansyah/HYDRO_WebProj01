@@ -57,8 +57,7 @@ if(isset($_POST['loginBtn'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -101,13 +100,13 @@ if(isset($_POST['loginBtn'])) {
           <div class="col-sm-6 form">
  
              <!-- Login Form -->
-             <div class="login form-peice switched">
+             <div class="login form-peice " id="loginpage">
                <?php if(isset($error)) : ?>
                 <script>alert('Username/Pass salah');</script>";
                 <?php endif; ?>
                 <form class="" action="#" method="post">
                    <div class="form-group"  style="color: black;">
-                   <h3>Login</h3>
+                   <h3><strong>LOGIN</strong></h3>
                       <label for="loginUsername">Username</label>
                       <input type="text" name="loginUsername" id="loginUsername" required>
                    </div>
@@ -117,26 +116,29 @@ if(isset($_POST['loginBtn'])) {
                       <input type="password" name="loginPassword" id="loginPassword" required>
                    </div>
 
-                   <div class="pt-1 d-flex align-items-center">
-                     <input type="checkbox" name="rememberme" id="rememberme" style="width:15px" class="d-inline">
+                   <div class="pt-2 d-flex align-items-center">
+                     <input type="checkbox" name="rememberme" id="rememberme" style="width:15px; border-radius: 10px;" value="" class="d-inline mt-2 ">
                      <!-- Ini checkbox, klo dikasih form-check-input, malah suka unchecked sendiri -->
-                     <span class="fs-6 px-1 pb-1">Remember Me</span>
+                     <span class="px-1 mt-2" style="font-size: 14px;">Remember Me</span>
                   </div>
+
  
                    <div class="CTA">
                       <input type="submit" name="loginBtn" value="Login">
-                      <a href="#" class="switch">I'm New</a>
+                      <a href="#" class="switch" >I'm New</a>
                    </div>
                 </form>
+                
              </div><!-- End Login Form -->
+             
  
  
              <!-- Signup Form -->
-             <div class="signup form-peice">
+             <div class="signup form-peice switched" id="signuppage">
                 <form class="" action="#" method="post">
  
                    <div class="form-group" style="color: black;">
-                     <h3>Sign Up</h3>
+                   <h3><strong>SIGN UP</strong></h3>
                       <label for="username" >Username</label>
                       <input type="text" name="username" id="username" class="">
                       <span class="error"></span>
@@ -205,6 +207,8 @@ if(isset($_POST['loginBtn'])) {
 
  
     <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="./js/scripts.js"></script>
     <script>
       AOS.init();

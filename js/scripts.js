@@ -118,7 +118,7 @@ $(document).ready(function () {
       }
     });
   
-    // form switch
+    // form switch (a)
     $("a.switch").click(function (e) {
       $(this).toggleClass("active");
       e.preventDefault();
@@ -137,7 +137,17 @@ $(document).ready(function () {
           .addClass("switched");
       }
     });
-  
+
+    // form switch (btn)
+    function logswitcher() {
+      window.location.href="regform.php";
+
+      var element = document.getElementById("signuppage");
+      element.classList.remove("switched");
+      var element = document.getElementById("loginpage");
+      element.classList.add("switched");
+    }
+
     // Form submit
     $("form.signup-form").submit(function (event) {
       event.preventDefault();

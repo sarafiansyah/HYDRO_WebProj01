@@ -6,19 +6,14 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Home
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="index.php">Index</a></li>
-            <li><a class="dropdown-item" href="ct.php">Contact Form</a></li>
-            <li><a class="dropdown-item" href="regform.php">Registration Form</a></li>
-            <li><a class="dropdown-item" href="user01.php">User Logged In</a></li>
-            <li><a class="dropdown-item" href="user02.php">User Edit</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Rewards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">E-Commerce</a>
         </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -56,8 +51,8 @@
       </ul>
       <form class="d-flex">
         
-        <button class="btn btn-outline-primary rounded-pill switch" type="button" onclick="location.href = 'regform.php';">Login</button>
-        <button class="btn btn-primary rounded-pill" type="button"onclick="location.href = 'regform.php';">Sign Up</button>
+        <button class="btn btn-outline-primary rounded-pill" type="button" onclick="window.location.href='regformSU.php'">Login</button>
+        <button class="btn btn-primary rounded-pill" type="button"onclick="location.href = 'regformLI.php';">Sign Up</button>
       </form>
     </div>
   </div>

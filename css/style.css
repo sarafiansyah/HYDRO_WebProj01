@@ -1,4 +1,29 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
 
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
+*{
+  font-family: Poppins-Regular;
+}
   .wrapper {
     margin: 10vh;
   }
@@ -80,6 +105,6 @@
   }
 
   .user01bg{
-    background-image: url('https://source.unsplash.com/1080x1920/?tree,nature');
+    background-image: url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=100');
     background-size: cover;
   }

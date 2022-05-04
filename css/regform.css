@@ -1,4 +1,30 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+}
+
 /*REGISTRATION FORM STYLES*/
+* {
+  font-family: Poppins-Regular;
+}
 body {
 
     background: #f7edd5;
@@ -172,7 +198,7 @@ body {
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins-Regular";
     transform: translateY(40px);
     transition: all 0.4s;
     cursor: text;
@@ -196,7 +222,7 @@ body {
     border-bottom: 1px solid #eee;
     color: #444;
     font-size: 15px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins-Regular";
     z-index: 1;
   }
   .form form input:not([type=submit]).hasError {
@@ -204,7 +230,7 @@ body {
   }
   .form form span.error {
     color: #f95959;
-    font-family: "Montserrat", sans-serif;
+    font-family: Poppins-Regular;
     font-size: 12px;
     position: absolute;
     bottom: -20px;
@@ -226,12 +252,12 @@ body {
     border-radius: 30px;
     margin-right: 20px;
     border: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: Poppins-Regular;
   }
   .form form .CTA a.switch {
     font-size: 13px;
     font-weight: 400;
-    font-family: "Montserrat", sans-serif;
+    font-family: Poppins-Regular;
     color: #bbbbbb;
     text-decoration: underline;
     transition: all 0.3s;
