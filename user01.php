@@ -24,7 +24,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Profile Page</title>
+	<title>HYDROweb</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -130,30 +130,57 @@
 
     <div class="mb-3">
       <label for="disabledTextInput" class="form-label">Nama</label>
-      <input type="text" id="disabledTextInput" class="form-control" placeholder="" name="nama">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="" name="nama" value="<?php echo $showdata['nama_depan'] , ' ', $showdata['nama_belakang']?> ">
+      <div id="emailHelp" class="form-text">Masukan Nama lengkap anda</div>
     </div>
-
+    <div class="mb-3">
+      <label for="disabledTextInput" class="form-label">No. Invoice</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="" name="noinvoice">
+      <div id="emailHelp" class="form-text">Contoh IN/123/123.</div>
+    </div>
     <div class="mb-3">
       <label for="disabledTextInput" class="form-label">Jumlah Pembelian</label>
       <input type="text" id="disabledTextInput" class="form-control" placeholder="" name="jumlahpembelian">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <div id="emailHelp" class="form-text">Contoh: 2 barang</div>
     </div>
 
     <div class="mb-3">
       <label for="disabledTextInput" class="form-label">Media Pembelian</label>
       <input type="text" id="disabledTextInput" class="form-control" placeholder="" name="mediapembelian">
+      <div id="emailHelp" class="form-text">Contoh: Tokopedia/Shopee/Langsung</div>
+    </div>
+    <div class="mb-3 d-none">
+      <label for="disabledTextInput" class="form-label">Time</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="" name="waktupembelian" value="<?php
+date_default_timezone_set("Asia/Jakarta");
+echo date("H:i:s");
+?> " >
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
+
 
         
         <div class="container-contact100-form-btn">
 					<div class="wrap-contact100-form-btn">
 						<div class="contact100-form-bgbtn"></div>
-						<button class="contact100-form-btn" type="submit" name="addpoint">
+						<button class="contact100-form-btn submitBtn" type="submit" name="addpoint">
 							<span>
 								Submit
 								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+							</span>
+						</button>
+					</div>
+				</div>
+        <div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn loadingBtn d-none" type="submit" name="addpoint">
+							<span>
+								Harap Tunggu  
+                <div class="spinner-border spinner-border-sm" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+								
 							</span>
 						</button>
 					</div>
@@ -257,19 +284,39 @@
   const scriptURL = 'https://script.google.com/macros/s/AKfycbxM4O8yISXP6QkbFBGrBV8zEVfdkEGalL4mMIcORNqKpVoYy6AB1zg1yhtgLMYsuO0/exec'
   const form = document.forms['hydro-database-01'];
   const successAlert = document.querySelector('.sc-alert');
+  const submitBtn = document.querySelector('.submitBtn');
+  const loadingBtn = document.querySelector('.loadingBtn');
 
 
   form.addEventListener('submit', e => {
     e.preventDefault()
-	
+    submitBtn.classList.toggle('d-none')
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then((response) => {
 		successAlert.classList.toggle('d-none'); 
+
+    loadingBtn.classList.toggle('d-none'); 
+    submitBtn.classList.toggle('d-none')
+    
 		form.reset(); 
     window.scrollTo({ top: 0, behavior: 'smooth' });
 		console.log('Success!', response)})
+    
+    loadingBtn.classList.toggle('d-none') 
+ 
+    
       .catch(error => console.error('Error!', error.message))
   })
+
+  function loading() {
+  var x = document.getElementById("loadingbtn");
+  x.style.display = "none";
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 </script>
 
 
