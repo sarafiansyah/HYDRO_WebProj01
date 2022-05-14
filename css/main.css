@@ -359,12 +359,46 @@ textarea.input100 {
   .contact100-form-title {
     display: block;
     font-family: Poppins-Bold;
-    font-size: 28px;
+    font-size: 22px;
     color: #333333;
     line-height: 1.2;
     text-align: center;
     padding-bottom: 44px;
   }
+  
+  
+}
+
+@media (max-width: 576px) {
+  .wrap-contact100 {
+    padding: 72px 30px 65px 30px;
+    
+  }
+  .contact100-form-title {
+    display: block;
+    font-family: Poppins-Bold;
+    font-size: 22px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 44px;
+  }
+}
+
+  @media (max-width: 400px) {
+    .wrap-contact100 {
+      padding: 72px 30px 65px 30px;
+      
+    }
+    .contact100-form-title {
+      display: block;
+      font-family: Poppins-Bold;
+      font-size: 16px;
+      color: #333333;
+      line-height: 1.2;
+      text-align: center;
+      padding-bottom: 44px;
+    }
   
   
 }
