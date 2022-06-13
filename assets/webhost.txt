@@ -10,3 +10,10 @@ MySQL Password : BOTOoxQNal5mGo5
 MySQL Hostname : sql210.epizy.com
 MySQL Port     : 3306
 Database Name  : epiz_31147817_XXX
+
+HOSTINGER
+FTP Username : u328896269
+FTP Password : K3dairoxyy!
+FTP Hostname : hydroantigoweb.online
+FTP Port     : 21
+
