@@ -64,14 +64,14 @@ verifyCookie();
          <img class="card-img d-none" src="https://images.unsplash.com/photo-1624365169364-0640dd10e180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z29sZCUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
-            <small class="card-meta mb-2">POIN NEEDED : 500</small>
-            <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 0,25gr</a></h4>
-           <small><i class="far fa-clock"></i> End : July 1, 2022</small>
+            <small class="card-meta mb-2">POIN NEEDED : 1000</small>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#">XIAOMI Mi BAND 4</a></h4>
+           <small><i class="far fa-clock"></i> End : October 1, 2022</small>
           </div>
           <div class="card-footer">
            <div class="media">
   <div class="media-body">
-    <a href="https://wa.me/089668796550?text=Hallo%20kak%2C%0ASaya%20mau%20tukar%20poin%20hydrogel%20dengan%20GoldBar%200%2C25%20gr%20nih%20" class="btn btn-primary btn-lg rounded-pill">Reedem Now</a>
+    <a href="https://wa.me/6282260123235?text=Hallo%20kak%2C%20%0ASaya%20mau%20tukar%201000%20poin%20dengan%20reward%20nih%20%3AD%0ATerimakasih%20kak" class="btn btn-primary btn-lg rounded-pill">Reedem Now</a>
   </div>
 </div>
           </div>
@@ -81,14 +81,14 @@ verifyCookie();
          <img class="card-img d-none" src="https://images.unsplash.com/photo-1624365168785-c65be9114821?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z29sZCUyMGJhcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
-            <small class="card-meta mb-2">POIN NEEDED : 1000</small>
-            <h4 class="card-title mt-0 "><a class="text-white">EXCLUSIVE GOLDBAR 0,5gr</a></h4>
-           <small><i class="far fa-clock"></i> End : July 1, 2022</small>
+            <small class="card-meta mb-2">POIN NEEDED : 2500</small>
+            <h4 class="card-title mt-0 "><a class="text-white">XIAOMMI REDMI 10C</a></h4>
+           <small><i class="far fa-clock"></i> End : October 1, 2022</small>
           </div>
           <div class="card-footer">
            <div class="media">
   <div class="media-body">
-    <a href="https://wa.me/089668796550?text=Hallo%20kak%2C%0ASaya%20mau%20tukar%20poin%20hydrogel%20dengan%20GoldBar%200%2C5%20gr%20nih%20" class="btn btn-primary btn-lg rounded-pill">Reedem Now</a>
+    <a href="https://wa.me/6282260123235?text=Hallo%20kak%2C%20%0ASaya%20mau%20tukar%202500%20poin%20dengan%20reward%20nih%20%3AD%0ATerimakasih%20kak" class="btn btn-primary btn-lg rounded-pill">Reedem Now</a>
   </div>
 </div>
           </div>
@@ -98,14 +98,14 @@ verifyCookie();
          <img class="card-img d-none" src="https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
-            <small class="card-meta mb-2">POIN NEEDED : 2000</small>
-            <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 1,0gr</a></h4>
-           <small><i class="far fa-clock"></i> End : July 1, 2022</small>
+            <small class="card-meta mb-2">POIN NEEDED : 5000</small>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#">XIAOMI REDMI NOTE 11</a></h4>
+           <small><i class="far fa-clock"></i> End : October 1, 2022</small>
           </div>
           <div class="card-footer">
            <div class="media">
   <div class="media-body">
-  <a href="https://wa.me/089668796550?text=Hallo%20kak%2C%0ASaya%20mau%20tukar%20poin%20hydrogel%20dengan%20GoldBar%201%2C0%20gr%20nih%20" class="btn btn-primary btn-lg rounded-pill">Reedem Now</a>
+  <a href="https://wa.me/6282260123235?text=Hallo%20kak%2C%20%0ASaya%20mau%20tukar%205000%20poin%20dengan%20reward%20nih%20%3AD%0ATerimakasih%20kak" class="btn btn-primary btn-lg rounded-pill">Reedem Now</a>
   </div>
 </div>
           </div>
@@ -122,15 +122,15 @@ verifyCookie();
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
-            <small class="card-meta mb-2">POIN NEEDED : 500</small>
-            <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 0,25gr</a></h4>
-           <small><i class="far fa-clock"></i> July 1, 2022</small>
+            <small class="card-meta mb-2">POIN NEEDED : 10000</small>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#">SMART TV XIAOMI</a></h4>
+           <small><i class="far fa-clock"></i> October 1, 2022</small>
           </div>
           <div class="card-footer">
            <div class="media">
   <img class="mr-3 rounded-circle cardsizing" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
   <div class="media-body">
-    <h6 class="my-0 text-white d-block">Reedem Now</h6>
+  <a href="https://wa.me/6282260123235?text=Hallo%20kak%2C%20%0ASaya%20mau%20tukar%2010000%20poin%20dengan%20reward%20nih%20%3AD%0ATerimakasih%20kak" class="btn btn-primary btn-lg rounded-pill">Reedem Now</a>
   </div>
 </div>
           </div>
@@ -140,15 +140,15 @@ verifyCookie();
          <img class="card-img d-none" src="https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
-            <small class="card-meta mb-2">POIN NEEDED : 1000</small>
-            <h4 class="card-title mt-0 "><a class="text-white">EXCLUSIVE GOLDBAR 0,5gr</a></h4>
-           <small><i class="far fa-clock"></i> July 1, 2022</small>
+            <small class="card-meta mb-2">POIN NEEDED : 20000</small>
+            <h4 class="card-title mt-0 "><a class="text-white">EXCLUSIVE GOLDBAR 5gr</a></h4>
+           <small><i class="far fa-clock"></i> October 1, 2022</small>
           </div>
           <div class="card-footer">
            <div class="media">
   <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
   <div class="media-body">
-    <h6 class="my-0 text-white d-block">Reedem Now</h6>
+  <a href="https://wa.me/6282260123235?text=Hallo%20kak%2C%20%0ASaya%20mau%20tukar%2020000%20poin%20dengan%20reward%20nih%20%3AD%0ATerimakasih%20kak" class="btn btn-primary btn-lg rounded-pill">Reedem Now</a>
   </div>
 </div>
           </div>
@@ -158,16 +158,13 @@ verifyCookie();
          <img class="card-img d-none" src="https://images.unsplash.com/photo-1610375461369-d613b564f4c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
-            <small class="card-meta mb-2">POIN NEEDED : 2000</small>
-            <h4 class="card-title mt-0 "><a class="text-white" herf="#">EXCLUSIVE GOLDBAR 1,0gr</a></h4>
-           <small><i class="far fa-clock"></i> July 1, 2022</small>
+            <small class="card-meta mb-2">COMING SOON</small>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#"></a></h4>
+           <small><i class="far fa-clock"></i>COMING SOON</small>
           </div>
           <div class="card-footer">
            <div class="media">
   <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
-  <div class="media-body">
-    <h6 class="my-0 text-white d-block">Reedem Now</h6>
-  </div>
 </div>
           </div>
         </div>
